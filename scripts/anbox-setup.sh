@@ -13,3 +13,6 @@ sudo snap install --beta --devmode anbox;
 snap refresh --beta --devmode anbox;
 snap info anbox;
 anbox.appmgr;
+
+
+exit
