@@ -6,5 +6,8 @@
 # changing boot logo
 ./boot-logo.sh
 
+# android support
+./anbox-setup.sh
+
 #
 
