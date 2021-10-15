@@ -11,7 +11,7 @@
 ./scripts/wine-setup.sh
 
 # android support
-#bash scripts/anbox-setup.sh
+#./scripts/anbox-setup.sh
 
 # playstore support
 
