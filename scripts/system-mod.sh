@@ -9,3 +9,4 @@ sudo apt autoremove -y;
 
 
 
+exit
