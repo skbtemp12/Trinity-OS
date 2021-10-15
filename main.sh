@@ -15,3 +15,7 @@
 
 # playstore support
 
+
+
+sudo apt autoremove -y
+
