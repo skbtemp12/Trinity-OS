@@ -9,5 +9,6 @@
 # android support
 ./anbox-setup.sh
 
-#
+# playstore support
+
 
