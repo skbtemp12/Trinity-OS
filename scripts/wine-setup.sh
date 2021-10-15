@@ -12,7 +12,7 @@ sudo apt update -y;
 
 sudo apt install --install-recommends winehq-stable -y;
 
-sudo apt install winehq -y;
+sudo apt install wine-stable winehq-stable -y;
 
 dpkg-reconfigure wine-stable-amd64 wine-stable wine-stable-i386;
 
