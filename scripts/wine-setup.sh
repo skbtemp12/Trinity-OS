@@ -18,3 +18,8 @@ dpkg-reconfigure wine-stable-amd64 wine-stable wine-stable-i386;
 
 sudo ln -s /usr/share/doc/wine-stable/examples/wine.desktop /usr/share/applications/
 
+
+
+
+
+exit
