@@ -37,3 +37,7 @@ grep '/usr/s\?bin' /etc/systemd/system/display-manager.service
 sudo apt install deepin-terminal deepin-movie -y;
 
 
+
+
+
+exit
