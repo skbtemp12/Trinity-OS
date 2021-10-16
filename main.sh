@@ -1,17 +1,19 @@
 #!/bin/bash
 
+cd /scripts
+chmod +x *
 
 # modifying system to get latest packages
-sudo ./scripts/system-mod.sh"
+sudo ./system-mod.sh"
 
 # changing boot logo
-sudo ./scripts/boot-logo.sh
+sudo ./boot-logo.sh
 
 # Windows app support
-sudo ./scripts/wine-setup.sh
+sudo ./wine-setup.sh
 
 # android support
-#sudo ./scripts/anbox-setup.sh
+#sudo ./anbox-setup.sh
 
 # playstore support
 
