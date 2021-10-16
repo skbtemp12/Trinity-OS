@@ -4,7 +4,7 @@ cd scripts
 chmod +x *
 
 # modifying system to get latest packages
-sudo ./system-mod.sh"
+sudo ./system-mod.sh
 
 # changing boot logo
 sudo ./boot-logo.sh
