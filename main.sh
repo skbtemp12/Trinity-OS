@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /scripts
+cd scripts
 chmod +x *
 
 # modifying system to get latest packages
