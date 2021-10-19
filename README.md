@@ -1,5 +1,6 @@
 # Trinity-OS
      Beyond limits...
+is a debian based operating system with KDE plasma.
 
 
 Features:
