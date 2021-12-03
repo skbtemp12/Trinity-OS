@@ -4,15 +4,19 @@ cd scripts
 chmod +x *
 
 # modifying system to get latest packages
-sudo ./system-mod.sh
+#sudo ./system-mod.sh
 
 
 # Windows app support
-sudo ./wine-setup.sh
+#sudo ./wine-setup.sh
 
 
 # changing boot logo
 sudo ./boot-logo.sh
+
+
+# changing grub theme
+sudo ./grub-theme.sh
 
 
 # android support
