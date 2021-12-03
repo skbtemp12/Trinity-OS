@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~/Trinity-OS/
 
 # make sure you have the packages for plymouth
 sudo apt install plymouth -y;
@@ -25,7 +26,7 @@ echo	"
 
 
 
-
+cd ~
 
 
 exit
