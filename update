@@ -1,0 +1,37 @@
+#!/bin/bash
+# THIS IS A AUTOMATION SCRIPT THAT AUTOMATES LINUX UPDATING PROCESS
+
+echo ""
+echo ""
+echo -e "\e[1;33m	Hello $USER, lets update this system. \e[0m"
+echo ""
+sudo apt update -y;
+echo ""
+echo -e "\e[1;33m	Repositories Updated Successfully. \e[0m"
+echo ""
+sudo apt upgrade -y;
+echo ""
+echo -e "\e[1;33m	Programs and Apps Updated Successfully. \e[0m"
+echo ""
+sudo apt dist-upgrade -y;
+sudo apt full-upgrade -y;
+echo ""
+echo -e "\e[1;33m	Distro Updated Successfully. \e[0m"
+echo ""
+sudo flatpak update -y;
+echo ""
+echo -e "\e[1;33m	Flatpak Apps Updated Successfully. \e[0m"
+echo ""
+sudo apt autoremove -y;
+sudo apt autoclean -y;
+sudo flatpak uninstall --unused -y;
+sudo updatedb;
+echo ""
+echo ""
+echo -e "\e[1;33m	Removed All Unused Libraries Successfully. \e[0m"
+echo ""
+echo -e "\e[1;33m		   UPDATE DONE !!! \e[0m"
+echo ""
+echo -e "\e[1;31m	mr. virus says, You're Welcome $USER. \e[0m"
+exit
+
