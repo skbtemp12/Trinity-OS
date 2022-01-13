@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+
+sudo apt install wget -y;
+
 # installing spotify
 
 echo	"
@@ -32,9 +36,19 @@ sudo apt install gnome-shell-extension-appindicator gir1.2-appindicator3-0.1 -y;
 grep '/usr/s\?bin' /etc/systemd/system/display-manager.service
 
 
-# installing others
+# installing onlyoffice
 
-sudo apt install deepin-terminal deepin-movie -y;
+echo "
+
+
+		installing onlyoffice...
+
+
+"
+
+wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb;
+sudo dpkg -i onlyoffice-desktopeditors_amd64.deb;
+sudo apt --fix-broken install -y;
 
 
 
