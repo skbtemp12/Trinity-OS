@@ -28,6 +28,12 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 # installing protonvpn
 
+echo "
+
+		installing protonvpn
+
+"
+
 wget https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
 sudo dpkg -i protonvpn-stable-release_1.0.1-1_all.deb
 sudo apt update
@@ -56,7 +62,7 @@ sudo apt --fix-broken install -y;
 echo "
 
 	
-			installing xdm...
+		installing xdm...
 
 
 "
