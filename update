@@ -32,6 +32,13 @@ echo -e "\e[1;33m	Removed All Unused Libraries Successfully. \e[0m"
 echo ""
 echo -e "\e[1;33m		   UPDATE DONE !!! \e[0m"
 echo ""
+# notes
+
+echo "           Updating process took $SECONDS seconds to finish...
+
+
+
+";
 echo -e "\e[1;31m	mr. virus says, You're Welcome $USER. \e[0m"
 exit
 
