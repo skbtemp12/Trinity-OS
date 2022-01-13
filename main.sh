@@ -3,6 +3,9 @@
 cd scripts
 chmod +x *
 
+# installing update automation
+sudo cp update /usr/bin/
+
 # modifying system to get latest packages
 #sudo ./system-mod.sh
 
