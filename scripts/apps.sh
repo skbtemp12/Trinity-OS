@@ -51,6 +51,23 @@ sudo dpkg -i onlyoffice-desktopeditors_amd64.deb;
 sudo apt --fix-broken install -y;
 
 
+# installing xdm
+
+echo "
+
+	
+			installing xdm...
+
+
+"
+
+sudo apt install tar -y;
+cd /tmp
+wget https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz;
+tar -xf xdm-setup-7.2.11.tar.xz;
+sudo ./install.sh;
+rm -rf install.sh readme.txt xdm-setup-7.2.11.tar.xz;
+cd ~
 
 
 
