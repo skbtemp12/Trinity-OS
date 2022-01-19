@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# moding kde plasma
+chmod +x kde-mod.sh;
+sudo ./kde-mod.sh;
 cd scripts
 chmod +x *
 
