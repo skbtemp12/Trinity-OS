@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
+# Installing essentials
+sudo apt install wget software-properties-gtk -y;
 
-sudo apt install wget -y;
 
 # installing spotify
 
