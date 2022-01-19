@@ -1,5 +1,13 @@
 #!/bin/bash
+
 # THIS IS A AUTOMATION SCRIPT THAT AUTOMATES LINUX UPDATING PROCESS
+# Author: https://github.com/skbtemp12
+
+
+# Color Variable
+TEXT_RESET='\e[0m'
+TEXT_YELLOW='\e[0;33m'
+TEXT_RED_B='\e[1;31m'
 
 echo ""
 echo ""
@@ -38,5 +46,22 @@ echo ""
 echo -e "\e[1;31m       Process took $SECONDS seconds to finish... \e[0m"
 echo "
 "
+
+# reboot prompt
+
+if [ -f /var/run/reboot-required ]; then
+    echo -e $TEXT_RED_B
+    echo '	Reboot required!	'
+    echo -e $TEXT_RESET
+    read -p "       Wanna Reboot now? [y/n] " INT_REBOOT
+    if [[ $INT_REBOOT == y  ]]
+    then
+        sudo reboot
+    else
+        echo "	Aborting reboot... "
+    fi;
+fi;
+
+
 
 exit
