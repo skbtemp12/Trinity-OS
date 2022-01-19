@@ -15,7 +15,7 @@ sudo apt autoclean -y;
 echo "
 
 
-              done
+             kde mod done
 
 
 "
