@@ -40,10 +40,14 @@ fi;
 
 # House keeping
 
-sudo dpkg --purge $(dpkg --get-selections | grep deinstall | cut -f1);
 sudo apt autoremove -y;
 sudo apt autoclean -y;
 sudo updatedb;
+if [[ "$(dpkg --get-selections | grep deinstall | cut -f1)" != "" ]]
+then
+    sudo dpkg --purge $(dpkg --get-selections | grep deinstall | cut -f1);
+fi;
+
 echo ""
 echo ""
 echo -e "$COLOR_YELLOW       Removed All Unused Libraries Successfully. $COLOR_END"
