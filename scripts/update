@@ -69,7 +69,7 @@ echo "
 if [ -f /var/run/reboot-required ]; then
     echo -e "$COLOR_RED_B   Reboot required!	$COLOR_END"
     read -p "   Wanna Reboot now? [y/n]: " INT_REBOOT
-    if [[ $INT_REBOOT == y  ]]
+    if [[  "$INT_REBOOT" == "y" || "$INT_REBOOT" == "Y" || "$INT_REBOOT" == "yes" || "$INT_REBOOT" == "Yes" || "$INT_REBOOT" == "YES" ]]
     then
         sudo reboot
     else
